@@ -1,5 +1,6 @@
 # program for bmi calculator
 def bmi_calculator(name, height, weight):
+    '''this fuction calculates your BMI'''
     bmi = weight / (height**2 )
     print('bmi: ')
     print(bmi)
